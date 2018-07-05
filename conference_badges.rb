@@ -2,7 +2,8 @@
 name=["Edsger" "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 
-def badge_maker(name)
+def conference_badges(badge_maker)
+  
   puts "Hello, my name is #{name}"
 end
 
@@ -15,6 +16,3 @@ end
 def printer
 end
 
-def conference_badges
-  
-end 
