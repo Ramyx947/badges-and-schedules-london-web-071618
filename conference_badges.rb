@@ -22,7 +22,7 @@ return new_array
 end
 
 def printer(batch_badge_creator, assign_rooms)
-  puts batch_badge_creator
-  puts assign_rooms.each
+ batch_badge_creator(array).each {do |id| puts id}
+ assign_rooms(array).each {|id| puts id}
 end
 
