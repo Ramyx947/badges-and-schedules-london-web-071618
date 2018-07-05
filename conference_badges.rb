@@ -2,7 +2,7 @@
 
 def batch_maker(name)
   name=["Edsger" "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  name.each {|name| puts "Hello, my name is #{name}."}
+  puts "Hello, my name is #{name.each}"
 end
 
 def assign_rooms
