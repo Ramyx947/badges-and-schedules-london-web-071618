@@ -1,7 +1,7 @@
 # Write your code here.
 attendees=["Edsger" "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
-def batch_maker(name)
+def batch_badge(name)
   
    return "Hello, my name is #{name}"
 end
