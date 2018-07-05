@@ -1,5 +1,5 @@
 # Write your code here.
-speakers=["Edsger" "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
+attendees=["Edsger" "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 def batch_maker(name)
   
