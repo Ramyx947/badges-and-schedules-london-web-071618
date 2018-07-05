@@ -2,12 +2,8 @@
 name=["Edsger" "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
 
-def conference_badges(badge_maker)
-  
-  puts "Hello, my name is #{name}"
-end
-
 def batch_badge_creator(names)
+  names.each {|name| puts "Hello, my name is #{name}."
 end
 
 def assign_rooms
