@@ -22,7 +22,11 @@ end
     
 
 def printer(attendees)
-batch_badge_creator(attendees).each {do |id| puts id}
-assign_rooms(array).each{|id| puts id}
+batch_badge_creator(attendees).each do |id| 
+  puts id
+end
+assign_rooms(attendees).each do|id| 
+  puts id
+end
 end
 
